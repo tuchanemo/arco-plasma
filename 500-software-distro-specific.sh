@@ -72,6 +72,8 @@ surfn-arc-breeze-icons-git
 systemd-kcm
 w3m
 hardcode-fixer-git
+## --------------
+galculator
 )
 
 count=0
