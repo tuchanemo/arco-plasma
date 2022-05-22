@@ -74,6 +74,7 @@ w3m
 hardcode-fixer-git
 ## --------------
 galculator
+kgpg
 )
 
 count=0
