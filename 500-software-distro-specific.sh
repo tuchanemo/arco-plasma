@@ -56,7 +56,7 @@ func_category Additional-distro-specific
 
 list=(
 ark
-cryfs
+## cryfs	# Cryptographic filesystem for the cloud
 dolphin-plugins
 ffmpegthumbs
 gwenview
@@ -72,6 +72,8 @@ surfn-arc-breeze-icons-git
 systemd-kcm
 w3m
 hardcode-fixer-git
+## ---------------------
+ktexteditor
 )
 
 count=0
