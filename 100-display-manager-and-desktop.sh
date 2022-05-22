@@ -52,7 +52,7 @@ arcolinux-wallpapers-git
 plasma-meta
 dolphin
 konsole
-spectacle
+## spectacle	# KDE screenshot capture utility
 yakuake
 kinit
 )
