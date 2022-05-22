@@ -75,6 +75,7 @@ hardcode-fixer-git
 ## --------------
 galculator
 kgpg
+most # need for man
 )
 
 count=0
