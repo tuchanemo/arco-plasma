@@ -63,7 +63,7 @@ gwenview
 imagemagick
 kde-gtk-config
 kde-system-meta
-kdeconnect
+## kdeconnect # Adds communication between KDE and your smartphone
 ocs-url
 okular
 packagekit-qt5
