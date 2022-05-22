@@ -50,12 +50,13 @@ list=(
 sddm
 arcolinux-wallpapers-git
 plasma-meta
-dolphin
+## dolphin
 konsole
 ## spectacle	# KDE screenshot capture utility
 yakuake
 kinit
 ## ------------------
+kde-system-meta
 plasma-wayland-session
 egl-wayland
 kwrite
