@@ -55,6 +55,10 @@ konsole
 ## spectacle	# KDE screenshot capture utility
 yakuake
 kinit
+## ------------------
+plasma-wayland-session
+egl-wayland
+kwrite
 )
 
 count=0
