@@ -60,6 +60,7 @@ kde-system-meta
 plasma-wayland-session
 egl-wayland
 kwrite
+most # need for man
 )
 
 count=0
