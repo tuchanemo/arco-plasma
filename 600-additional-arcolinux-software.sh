@@ -61,12 +61,12 @@ arcolinux-qt5-plasma-git
 arcolinux-plasma-dconf-git
 arcolinux-plasma-kservices-git
 arcolinux-plasma-git
-thunar
-thunar-archive-plugin
-thunar-volman
-xfce4-terminal
-arcolinux-xfce-git
-arcolinux-local-xfce4-git
+# thunar
+# thunar-archive-plugin
+# thunar-volman
+# xfce4-terminal
+# arcolinux-xfce-git
+# arcolinux-local-xfce4-git
 surfn-arc-breeze-icons-git
 )
 
@@ -82,11 +82,11 @@ func_category Arcolinux-General
 
 list=(
 arcolinux-bin-git
-arcolinux-hblock-git
+# arcolinux-hblock-git
 arcolinux-root-git
 arcolinux-termite-themes-git
 archlinux-tweak-tool-git
-arcolinux-variety-git
+# arcolinux-variety-git
 )
 
 count=0
