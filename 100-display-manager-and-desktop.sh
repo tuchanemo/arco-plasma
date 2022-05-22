@@ -86,6 +86,17 @@ echo "################################################################"
 echo;tput sgr0
 sudo systemctl enable sddm.service -f
 
+tput setaf 2;echo "################################################################"
+echo "Removing packages we do not want"
+echo "################################################################"
+echo;tput sgr0
+sudo pacman -Rdd alsa-{utils,ucm-conf,topology-conf}  --noconfirm
+sudo pacman -Rdd pulseaudio pipewire-media-session jack2 --noconfirm
+sudo pacman -S wireplumber --noconfirm
+sudo pacman -S jack-example-tools realtime-privileges --noconfirm
+sudo pacman -S pipewire-{alsa,jack,pulse,x11-bell} --noconfirm
+sudo pacman -S gst-plugin-pipewire libpulse --noconfirm
+
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"
 echo "################################################################"
