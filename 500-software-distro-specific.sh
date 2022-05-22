@@ -62,12 +62,12 @@ ffmpegthumbs
 gwenview
 imagemagick
 kde-gtk-config
-kde-system-meta
+## kde-system-meta
 ## kdeconnect # Adds communication between KDE and your smartphone
 ocs-url
 okular
 packagekit-qt5
-partitionmanager
+## partitionmanager
 surfn-arc-breeze-icons-git
 systemd-kcm
 w3m
