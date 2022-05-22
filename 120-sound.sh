@@ -47,20 +47,20 @@ echo "Installation of sound software"
 ###############################################################################
 
 list=(
-pulseaudio
-pulseaudio-alsa
-pavucontrol
-alsa-firmware
-alsa-lib
-alsa-plugins
-alsa-utils
+#pulseaudio
+#pulseaudio-alsa
+#pavucontrol
+#alsa-firmware
+#alsa-lib
+#alsa-plugins
+#alsa-utils
 gstreamer
 gst-plugins-good
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-ugly
-playerctl
-volumeicon
+#playerctl
+#volumeicon
 )
 
 count=0
