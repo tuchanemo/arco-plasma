@@ -50,7 +50,7 @@ list=(
 sddm
 arcolinux-wallpapers-git
 plasma-meta
-dolphin
+## dolphin # in the package kde-system-meta
 konsole
 ## spectacle	# KDE screenshot capture utility
 yakuake
@@ -61,6 +61,9 @@ plasma-wayland-session
 egl-wayland
 kwrite
 most # need for man
+breeze-grub
+breeze-gtk
+plasma-integration
 )
 
 count=0
