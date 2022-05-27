@@ -75,6 +75,7 @@ hardcode-fixer-git
 ## --------------
 galculator
 kgpg
+xsettingsd
 )
 
 count=0
