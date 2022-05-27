@@ -76,6 +76,8 @@ hardcode-fixer-git
 galculator
 kgpg
 xsettingsd
+fish
+arcolinux-fish-git
 )
 
 count=0
