@@ -61,7 +61,7 @@ dolphin-plugins
 ffmpegthumbs
 gwenview
 imagemagick
-kde-gtk-config
+#kde-gtk-config
 ## kde-system-meta
 ## kdeconnect # Adds communication between KDE and your smartphone
 ocs-url
