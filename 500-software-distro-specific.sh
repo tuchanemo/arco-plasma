@@ -78,6 +78,7 @@ kgpg
 xsettingsd
 fish
 arcolinux-fish-git
+xdg-desktop-portal
 )
 
 count=0
