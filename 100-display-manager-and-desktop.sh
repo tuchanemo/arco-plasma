@@ -99,7 +99,7 @@ sudo pacman -S wireplumber --noconfirm
 sudo pacman -S jack-example-tools realtime-privileges --noconfirm
 sudo pacman -Rdd jack2 --noconfirm
 sudo pacman -S pipewire-{alsa,jack,pulse,x11-bell,zeroconf} --noconfirm
-sudo pacman -S gst-plugin-pipewire pavucontrol-qt --noconfirm
+sudo pacman -S gst-plugin-pipewire --noconfirm
 
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"
