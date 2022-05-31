@@ -98,7 +98,7 @@ sudo pacman -Rdd pulseaudio pipewire-media-session jack2 --noconfirm
 sudo pacman -S wireplumber --noconfirm
 sudo pacman -S jack-example-tools realtime-privileges --noconfirm
 sudo pacman -Rdd jack2 --noconfirm
-sudo pacman -S pipewire-{alsa,jack,pulse,x11-bell} --noconfirm
+sudo pacman -S pipewire-{alsa,jack,pulse,x11-bell,zeroconf} --noconfirm
 sudo pacman -S gst-plugin-pipewire pavucontrol-qt --noconfirm
 
 tput setaf 7;echo "################################################################"
