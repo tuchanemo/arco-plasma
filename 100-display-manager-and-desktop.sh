@@ -96,10 +96,9 @@ echo;tput sgr0
 sudo pacman -Rdd alsa-{utils,ucm-conf,topology-conf}  --noconfirm
 sudo pacman -Rdd pulseaudio pipewire-media-session jack2 --noconfirm
 sudo pacman -S wireplumber --noconfirm
-sudo pacman -S jack-example-tools realtime-privileges --noconfirm
-sudo pacman -Rdd jack2 --noconfirm
-sudo pacman -S pipewire-{alsa,jack,pulse,x11-bell,zeroconf} --noconfirm
-sudo pacman -S gst-plugin-pipewire --noconfirm
+sudo pacman -S pipewire-{alsa,jack,pulse,zeroconf} --noconfirm
+sudo pacman -S gst-plugin-pipewire pulseaudio-qt realtime-privileges --noconfirm
+systemctl --user enable pipewire pipewire-pulse wireplumber
 
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"
