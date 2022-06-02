@@ -59,7 +59,8 @@ gst-plugins-good
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-ugly
-#playerctl
+qpwgraph
+playerctl
 #volumeicon
 )
 
