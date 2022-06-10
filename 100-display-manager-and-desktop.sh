@@ -50,22 +50,19 @@ list=(
 sddm
 arcolinux-wallpapers-git
 plasma-meta
-## dolphin # in the package kde-system-meta
 konsole
-## spectacle	# KDE screenshot capture utility
 yakuake
 kinit
 ## ------------------
 kde-system-meta
-dolphin-plugins
+plasma-integration
 plasma-wayland-session
 egl-wayland
+dolphin-plugins
 featherpad
 feathernotes
 most # need for man
 breeze-grub
-breeze-gtk
-plasma-integration
 )
 
 count=0
@@ -95,12 +92,7 @@ tput setaf 2;echo "#############################################################
 echo "Removing packages we do not want"
 echo "################################################################"
 echo;tput sgr0
-sudo pacman -Rdd alsa-{utils,ucm-conf,topology-conf}  --noconfirm
-sudo pacman -Rdd pulseaudio pipewire-media-session jack2 --noconfirm
-sudo pacman -S wireplumber --noconfirm
-sudo pacman -S pipewire-{alsa,jack,pulse,zeroconf} --noconfirm
-sudo pacman -S gst-plugin-pipewire pulseaudio-qt realtime-privileges --noconfirm
-systemctl --user enable pipewire pipewire-pulse wireplumber
+sudo pacman -Rdd pulseaudio jack2 --noconfirm
 
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"
