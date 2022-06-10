@@ -96,7 +96,7 @@ tput setaf 2;echo "#############################################################
 echo "Removing packages we do not want"
 echo "################################################################"
 echo;tput sgr0
-sudo pacman -Rdd pulseaudio jack2 --noconfirm
+sudo pacman -Rdd pulseaudio pipewrie-media-session jack2 --noconfirm
 
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"
