@@ -102,6 +102,8 @@ p7zip
 ### --- Messengers ---
 telegram-desktop
 viber
+### --- pkgfile ---
+pkgfile
 )
 
 count=0
@@ -110,8 +112,10 @@ for name in "${list[@]}" ; do
 	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
 	func_install $name
 done
-echo "Fixing hardcoded icon paths for applications - Wait for it"
+echo "Fixing hardcoded icon paths for applications - Wait for it and other"
 sudo hardcode-fixer
+sudo pkgfile -f
+sudo systemctl enable pkgfile-update.timer
 
 ###############################################################################
 
