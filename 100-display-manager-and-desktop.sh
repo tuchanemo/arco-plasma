@@ -58,6 +58,7 @@ kinit
 kde-system-meta
 plasma-integration
 plasma-wayland-session
+kcron
 egl-wayland
 dolphin-plugins
 featherpad
