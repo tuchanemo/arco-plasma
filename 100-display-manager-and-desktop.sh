@@ -57,9 +57,11 @@ yakuake
 kinit
 ## ------------------
 kde-system-meta
+dolphin-plugins
 plasma-wayland-session
 egl-wayland
-kwrite
+featherpad
+feathernotes
 most # need for man
 breeze-grub
 breeze-gtk
