@@ -99,6 +99,9 @@ unarchiver
 lrzip
 lzop
 p7zip
+### --- Messengers ---
+telegram-desktop
+viber
 )
 
 count=0
