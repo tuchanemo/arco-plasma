@@ -49,6 +49,7 @@ echo "Installation of the core software"
 list=(
 sddm
 arcolinux-wallpapers-git
+ark
 plasma-meta
 konsole
 yakuake
