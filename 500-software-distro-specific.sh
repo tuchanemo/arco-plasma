@@ -56,19 +56,12 @@ func_category Additional-distro-specific
 
 list=(
 ark
-## cryfs	# Cryptographic filesystem for the cloud
-dolphin-plugins
 ffmpegthumbs
 gwenview
 imagemagick
-#kde-gtk-config
-## kde-system-meta
-## kdeconnect # Adds communication between KDE and your smartphone
 ocs-url
 okular
 packagekit-qt5
-## partitionmanager
-surfn-arc-breeze-icons-git
 systemd-kcm
 w3m
 hardcode-fixer-git
@@ -77,8 +70,35 @@ galculator
 kgpg
 xsettingsd
 fish
+fzf
 arcolinux-fish-git
 xdg-desktop-portal
+## --- Materia theme ---
+kvantum
+kvantum-theme-materia
+materia-kde
+gtk-engines
+gtk-engine-murrine
+materia-gkt-theme
+arcolinux-sddm-materia-git
+bibata-cursor-theme-bin
+ttf-material-design-iconic-font
+## --- dracut package ---
+elfutils
+pigz
+sbsigntools
+multipath-tools
+dracut
+### --- KeePassXC ---
+keepassxc
+xclip
+wl-clipboard
+x11-ssh-askpass
+### --- archivers ---
+unarchiver
+lrzip
+lzop
+p7zip
 )
 
 count=0
