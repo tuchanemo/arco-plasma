@@ -59,12 +59,14 @@ kde-system-meta
 plasma-integration
 plasma-wayland-session
 kcron
+ksystemlog
 egl-wayland
 dolphin-plugins
 featherpad
 feathernotes
 most # need for man
 breeze-grub
+cronie
 )
 
 count=0
