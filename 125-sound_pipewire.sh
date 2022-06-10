@@ -51,11 +51,11 @@ alsa-firmware
 alsa-lib
 alsa-plugins
 alsa-utils
+wireplumber
 pavucontrol-qt
 pipewire
 pipewire-alsa
 pipewire-jack
-pipewire-media-session
 pipewire-pulse
 pipewire-zeroconf
 gstreamer
@@ -82,7 +82,7 @@ tput setaf 2;echo "#############################################################
 echo "Removing packages we do not want"
 echo "################################################################"
 echo;tput sgr0
-systemctl --user enable pipewire pipewire-pulse pipewire-media-session
+systemctl --user enable pipewire pipewire-pulse wireplumber
 sudo usermod -aG realtime alex
 sudo usermod -rG audio alex
 
