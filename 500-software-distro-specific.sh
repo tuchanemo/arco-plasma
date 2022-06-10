@@ -104,6 +104,8 @@ telegram-desktop
 viber
 ### --- pkgfile ---
 pkgfile
+### --- firewall ---
+firewalld
 )
 
 count=0
@@ -116,6 +118,7 @@ echo "Fixing hardcoded icon paths for applications - Wait for it and other"
 sudo hardcode-fixer
 sudo pkgfile -f
 sudo systemctl enable pkgfile-update.timer
+sudo systemctl enable firewalld
 
 ###############################################################################
 
