@@ -121,6 +121,11 @@ qt5-xmlpatterns
 python-pyqt5
 assimp
 firewalld
+### --- video driver ---
+xf86-video-ati
+xf86-video-radeon
+vulkan-mesa-layers
+vulkan-radeon
 )
 
 count=0
