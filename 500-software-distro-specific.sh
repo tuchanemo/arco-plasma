@@ -60,7 +60,6 @@ ffmpegthumbs
 gwenview
 imagemagick
 ocs-url
-okular
 packagekit-qt5
 systemd-kcm
 w3m
@@ -79,10 +78,11 @@ kvantum-theme-materia
 materia-kde
 gtk-engines
 gtk-engine-murrine
-materia-gkt-theme
+materia-gtk-theme
 arcolinux-sddm-materia-git
 bibata-cursor-theme-bin
 ttf-material-design-iconic-font
+papirus-icon-theme
 ## --- dracut package ---
 elfutils
 pigz
@@ -90,21 +90,36 @@ sbsigntools
 multipath-tools
 dracut
 ### --- KeePassXC ---
-keepassxc
 xclip
 wl-clipboard
 x11-ssh-askpass
+keepassxc
 ### --- archivers ---
 unarchiver
 lrzip
 lzop
 p7zip
 ### --- Messengers ---
+webkit2gtk
+avisynthplus
+ladspa
+qt6-languageserver
 telegram-desktop
 viber
 ### --- pkgfile ---
 pkgfile
 ### --- firewall ---
+python-capng
+python-opegl
+qt5-connectivity
+qt5-quick3d
+qt5-remoteobjects
+qt5-serialport
+qt5-webkit
+qt5-websockets
+qt5-xmlpatterns
+python-pyqt5
+assimp
 firewalld
 )
 
@@ -116,7 +131,7 @@ for name in "${list[@]}" ; do
 done
 echo "Fixing hardcoded icon paths for applications - Wait for it and other"
 sudo hardcode-fixer
-sudo pkgfile -f
+sudo pkgfile --update
 sudo systemctl enable pkgfile-update.timer
 sudo systemctl enable firewalld
 
