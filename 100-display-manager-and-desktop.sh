@@ -68,6 +68,8 @@ mathjax2
 most # need for man
 breeze-grub
 cronie
+ccache
+grub-customize
 )
 
 count=0
