@@ -58,7 +58,7 @@ kinit
 kde-system-meta
 plasma-integration
 plasma-wayland-session
-plasma-wayland-protocols
+pacman-contrib
 kcron
 ksystemlog
 egl-wayland
