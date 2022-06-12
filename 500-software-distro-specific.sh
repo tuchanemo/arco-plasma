@@ -109,23 +109,16 @@ viber
 ### --- pkgfile ---
 pkgfile
 ### --- firewall ---
-python-capng
-python-opegl
-qt5-connectivity
-qt5-quick3d
-qt5-remoteobjects
-qt5-serialport
-qt5-webkit
-qt5-websockets
-qt5-xmlpatterns
-python-pyqt5
-assimp
-firewalld
+ufw
 ### --- video driver ---
 xf86-video-ati
 xf86-video-radeon
 vulkan-mesa-layers
 vulkan-radeon
+### --- Firefox ---
+firefox-i18n-ru
+firefox-decentraleyes
+firefox-ublock-origin
 )
 
 count=0
@@ -138,7 +131,8 @@ echo "Fixing hardcoded icon paths for applications - Wait for it and other"
 sudo hardcode-fixer
 sudo pkgfile --update
 sudo systemctl enable pkgfile-update.timer
-sudo systemctl enable firewalld
+sudo systemctl enable ufw --now
+sudo ufw enable
 
 ###############################################################################
 
