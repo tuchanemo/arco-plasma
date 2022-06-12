@@ -70,6 +70,7 @@ breeze-grub
 cronie
 ccache
 grub-customize
+gvfs
 )
 
 count=0
