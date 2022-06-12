@@ -62,8 +62,8 @@ kcron
 ksystemlog
 egl-wayland
 dolphin-plugins
-featherpad
-feathernotes
+notepadqq
+mathjax2
 most # need for man
 breeze-grub
 cronie
