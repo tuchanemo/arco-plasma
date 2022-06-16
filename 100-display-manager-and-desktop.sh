@@ -102,6 +102,7 @@ echo "################################################################"
 echo;tput sgr0
 sudo pacman -Rdd pulseaudio --noconfirm
 sudo pacman -Rdd pipewire-media-session --noconfirm
+sudo pacman -Rdd pipewire --noconfirm
 sudo pacman -Rdd jack2 --noconfirm
 
 tput setaf 7;echo "################################################################"
