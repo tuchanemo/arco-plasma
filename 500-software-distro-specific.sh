@@ -65,7 +65,7 @@ systemd-kcm
 w3m
 hardcode-fixer-git
 ## --------------
-galculator
+kcalc
 kgpg
 xsettingsd
 fish
@@ -111,14 +111,13 @@ pkgfile
 ### --- firewall ---
 ufw
 ### --- video driver ---
-xf86-video-ati
-xf86-video-radeon
-vulkan-mesa-layers
-vulkan-radeon
+#xf86-video-ati
+#xf86-video-radeon
+#vulkan-mesa-layers
+#vulkan-radeon
 ### --- Firefox ---
+firefox
 firefox-i18n-ru
-firefox-decentraleyes
-firefox-ublock-origin
 )
 
 count=0
