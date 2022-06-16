@@ -48,16 +48,14 @@ echo "Installation of sound software"
 
 list=(
 alsa-firmware
-alsa-lib
 alsa-plugins
-alsa-utils
 wireplumber
-pavucontrol-qt
 pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pipewire-zeroconf
+pavucontrol-qt
 gstreamer
 gst-plugins-good
 gst-plugins-bad
