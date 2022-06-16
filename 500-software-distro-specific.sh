@@ -111,10 +111,8 @@ pkgfile
 ### --- firewall ---
 ufw
 ### --- video driver ---
-#xf86-video-ati
-#xf86-video-radeon
-#vulkan-mesa-layers
-#vulkan-radeon
+vulkan-mesa-layers
+vulkan-radeon
 ### --- Firefox ---
 firefox
 firefox-i18n-ru
