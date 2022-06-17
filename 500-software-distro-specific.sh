@@ -99,6 +99,7 @@ unarchiver
 lrzip
 lzop
 p7zip
+cabextract
 ### --- Messengers ---
 webkit2gtk
 avisynthplus
