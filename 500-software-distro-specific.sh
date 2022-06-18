@@ -117,6 +117,8 @@ vulkan-radeon
 ### --- Firefox ---
 firefox
 firefox-i18n-ru
+### --- nano syntax highlighting ---
+nano-syntax-highlighting
 )
 
 count=0
@@ -131,6 +133,7 @@ sudo pkgfile --update
 sudo systemctl enable pkgfile-update.timer
 sudo systemctl enable ufw --now
 sudo ufw enable
+echo "include /usr/share/nano-syntax-highlighting/*.nanorc" >> ~/.nanorc
 
 ###############################################################################
 
