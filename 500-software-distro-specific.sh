@@ -117,6 +117,7 @@ vulkan-radeon
 ### --- Firefox ---
 firefox
 firefox-i18n-ru
+gnome-keyring
 ### --- nano syntax highlighting ---
 nano-syntax-highlighting
 )
