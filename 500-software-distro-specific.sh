@@ -120,6 +120,9 @@ firefox-i18n-ru
 gnome-keyring
 ### --- nano syntax highlighting ---
 nano-syntax-highlighting
+### --- arcolinux configs ---
+arcolinux-config-all-desktops-git
+arcolinux-root-git
 )
 
 count=0
