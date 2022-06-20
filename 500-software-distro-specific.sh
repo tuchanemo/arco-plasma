@@ -101,6 +101,7 @@ lzop
 p7zip
 cabextract
 ### --- Messengers ---
+libtg_owt
 webkit2gtk
 avisynthplus
 ladspa
@@ -123,6 +124,9 @@ nano-syntax-highlighting
 ### --- arcolinux configs ---
 arcolinux-config-all-desktops-git
 arcolinux-root-git
+arcolinux-cron-git
+### --- text editor ---
+micro
 )
 
 count=0
