@@ -116,6 +116,8 @@ ufw
 vulkan-mesa-layers
 vulkan-radeon
 ### --- Firefox ---
+zenity
+kdialog
 firefox
 firefox-i18n-ru
 gnome-keyring
