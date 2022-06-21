@@ -61,6 +61,7 @@ plasma-wayland-session
 pacman-contrib
 kcron
 ksystemlog
+qjournalctl
 egl-wayland
 dolphin-plugins
 notepadqq
