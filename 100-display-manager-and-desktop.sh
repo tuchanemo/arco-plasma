@@ -71,6 +71,8 @@ cronie
 ccache
 grub-customize
 gvfs
+flatpak
+packagekit-qt5
 )
 
 count=0
