@@ -72,6 +72,7 @@ ccache
 grub-customize
 gvfs
 flatpak
+flatpak-xdg-utils
 packagekit-qt5
 )
 
