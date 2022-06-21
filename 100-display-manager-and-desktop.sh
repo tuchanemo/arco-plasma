@@ -73,6 +73,7 @@ grub-customize
 gvfs
 flatpak
 flatpak-xdg-utils
+fwupd
 packagekit-qt5
 )
 
