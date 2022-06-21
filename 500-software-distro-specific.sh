@@ -71,6 +71,7 @@ fish
 fzf
 arcolinux-fish-git
 xdg-desktop-portal
+xdg-user-dirs
 ## --- Materia theme ---
 #kvantum
 #kvantum-theme-materia
@@ -136,6 +137,8 @@ sudo pkgfile --update
 sudo systemctl enable pkgfile-update.timer
 sudo systemctl enable ufw --now
 sudo ufw enable
+xdg-user-dirs-update
+systemctl --user enable xdg-user-dirs-update
 echo "include /usr/share/nano-syntax-highlighting/*.nanorc" >> ~/.nanorc
 
 ###############################################################################
