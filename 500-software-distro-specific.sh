@@ -60,7 +60,6 @@ ffmpegthumbs
 gwenview
 imagemagick
 ocs-url
-packagekit-qt5
 systemd-kcm
 w3m
 hardcode-fixer-git
@@ -73,16 +72,16 @@ fzf
 arcolinux-fish-git
 xdg-desktop-portal
 ## --- Materia theme ---
-kvantum
-kvantum-theme-materia
-materia-kde
-gtk-engines
-gtk-engine-murrine
-materia-gtk-theme
-arcolinux-sddm-materia-git
-bibata-cursor-theme-bin
-ttf-material-design-iconic-font
-papirus-icon-theme
+#kvantum
+#kvantum-theme-materia
+#materia-kde
+#gtk-engines
+#gtk-engine-murrine
+#materia-gtk-theme
+#arcolinux-sddm-materia-git
+#bibata-cursor-theme-bin
+#ttf-material-design-iconic-font
+#papirus-icon-theme
 ## --- dracut package ---
 elfutils
 pigz
@@ -106,7 +105,7 @@ webkit2gtk
 avisynthplus
 ladspa
 qt6-languageserver
-telegram-desktop
+# telegram-desktop # Поставим из flatpak
 viber
 ### --- pkgfile ---
 pkgfile
