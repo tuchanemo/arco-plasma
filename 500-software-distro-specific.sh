@@ -100,12 +100,6 @@ lzop
 p7zip
 cabextract
 ### --- Messengers ---
-libtg_owt
-webkit2gtk
-avisynthplus
-ladspa
-qt6-languageserver
-# telegram-desktop # Поставим из flatpak
 viber
 ### --- pkgfile ---
 pkgfile
