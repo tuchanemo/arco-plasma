@@ -112,6 +112,8 @@ libva-utils
 libvdpau-va-gl
 lib32-libva-mesa-driver
 lib32-mesa-vdpau
+bigsh0t
+mediainfo
 vulkan-mesa-layers
 vulkan-radeon
 ### --- Firefox ---
