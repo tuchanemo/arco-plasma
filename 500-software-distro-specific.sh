@@ -108,7 +108,10 @@ pkgfile
 ufw
 ### --- video driver ---
 libva-mesa-driver
-libva-utils 
+libva-utils
+libvdpau-va-gl
+lib32-libva-mesa-driver
+lib32-mesa-vdpau
 vulkan-mesa-layers
 vulkan-radeon
 ### --- Firefox ---
