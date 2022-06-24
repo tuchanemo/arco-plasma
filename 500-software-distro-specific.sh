@@ -107,6 +107,7 @@ pkgfile
 ### --- firewall ---
 ufw
 ### --- video driver ---
+libva-mesa-driver
 vulkan-mesa-layers
 vulkan-radeon
 ### --- Firefox ---
